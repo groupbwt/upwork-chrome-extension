@@ -1,0 +1,72 @@
+.ext-row {
+  position: absolute;
+  transform: translateX(100%);
+  padding: 15px 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 355px;
+  background-color: #fff;
+  border-left: 1px solid #E0E0E0;
+  box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+
+  &:hover {
+    cursor: default;
+  }
+}
+.ext-select {
+  color: #707070!important;
+  min-width: unset!important;
+  padding: 10px 31px 10px 10px!important;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &[disabled]:hover {
+    cursor: not-allowed!important;
+  }
+}
+.ext-textarea {
+  height: 100% !important;
+  resize: none!important;
+  padding: 10px!important;
+  box-shadow: 0 1px 6px rgba(57,73,76,0.35)!important;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &::placeholder {
+    color: #B0B0B0 !important;
+  }
+}
+.ext-col-select {
+  max-height: 40px;
+}
+.ext-col-text {
+  margin: 0!important;
+  height: calc(100% - 70px);
+}
+.ext-priority {
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20px;
+  }
+}
+.ext-who {
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+  }
+}

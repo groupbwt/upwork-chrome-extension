@@ -1,0 +1,34 @@
+{
+  "who_add": [
+    {
+      "name" : "Nestor",
+      "color": "#7D3D8F"
+    },
+    {
+      "name" : "Oleg",
+      "color": "#F49C05"
+    },
+    {
+      "name" : "Igor B.",
+      "color": "#1756A3"
+    },
+    {
+      "name" : "Igor G.",
+      "color": "#000000"
+    }
+  ],
+  "priority": [
+    {
+      "name" : "High",
+      "color": "#48c774"
+    },
+    {
+      "name" : "Medium",
+      "color": "#ffdd57"
+    },
+    {
+      "name" : "Low",
+      "color": "#f14668"
+    }
+  ]
+}
